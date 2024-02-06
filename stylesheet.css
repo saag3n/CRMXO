@@ -1,0 +1,107 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgreen;
+    font-family: "Arial";
+    border-radius: 15px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .signupform {
+    margin: auto;
+    font-family: arial;
+  }
+
+  html * {
+    font-size: 16px;
+    line-height: 1.625;
+    font-family: Nunito, sans-serif;
+  }
+
+  .email_enter, .username_enter, .psw_enter, .pswrepeat_enter {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .signupbtn, .loginbtn, .createticketbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 12%;
+  }
+
+  .cancelbtn {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+  }
+
+  .profile_content, .profile_tickets {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+
+  .subject_enter{
+    width: 40%;
+  }
+
+  .desc_enter{
+    width: 40%;
+    height: 80px;
+    resize: none;
+  }
+
+  .searchbtn {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    margin: 4px;
+    padding: 8px 6px;
+    text-decoration: none;
+  }
+
+  .searchbar {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    margin: 4px;
+    padding: 8px 6px;
+    text-decoration: none;
+  }
